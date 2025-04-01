@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-image: linear-gradient(90deg, #007bff, #0056b3);
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  #galeria .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  #galeria .card:hover {
+    transform: scale(1.05);
+  }
+  
